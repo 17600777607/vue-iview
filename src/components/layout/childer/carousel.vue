@@ -30,7 +30,7 @@
 <style lang="less">
 #carousel{
     .demo-carousel{
-        max-height: 600px;
+        /*max-height: 600px;*/
         img{
             width: 100%;
             height: 100%;

@@ -1,12 +1,7 @@
 <template>
     <div id="navTop">
         <div class="layout-logo">
-            <div v-if="this.navWidth == 0">
-                <img style="width: 100px;margin-top: 16px" src="../../../assets/images/logo.jpg" alt="">
-            </div>
-            <div v-else>
-                <img src="../../../assets/images/logo.jpg" alt="">
-            </div>
+            <img style="width: 100px;" src="../../../assets/images/2.jpg" alt="">
         </div>
         <div class="layout-nav" id="SideMenu">
             <Menu mode="horizontal" :active-name="activeName" @on-select="activeNav" class="hang">
@@ -185,7 +180,8 @@
             .hang {
                 padding-right: 0;
             }
-            .navB{
+
+            .navB {
                 max-height: 300px;
                 overflow: auto;
             }

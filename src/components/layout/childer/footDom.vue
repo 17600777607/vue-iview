@@ -1,6 +1,6 @@
 <template>
     <div id="footDom">
-        版权所有  COPYRIGHT © 2017 浙江博盛不锈钢制造有限公司  浙ICP备05037094号
+        版权所有  菲菲菲菲菲菲菲菲菲菲菲菲菲菲
     </div>
 </template>
 

@@ -5,10 +5,8 @@
   </div>
 </template>
 <script>
-  import layout from "@/components/layout/index"
   export default {
     name: "app",
-    components:{layout},
   }
 </script>
 <style>
