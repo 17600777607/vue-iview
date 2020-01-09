@@ -1,4 +1,4 @@
-#效果图
+#效果图   出不来的话多刷新几次  githup加载太慢了
 ##pc
 ![Image text](https://github.com/17600777607/vue-iview/blob/master/src/assets/demo/1.jpg)
 
