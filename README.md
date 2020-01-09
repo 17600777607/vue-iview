@@ -1,7 +1,5 @@
 #效果图
 
-# my
-
 ## Project setup
 ```
 npm install
@@ -21,6 +19,3 @@ npm run build
 ```
 npm run test:unit
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
