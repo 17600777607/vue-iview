@@ -6,11 +6,10 @@
 // 例如：https://www.foobar.com/my-app/
 // 需要将它改为'/my-app/'
 // iview-admin线上演示打包路径： https://file.iviewui.com/admin-dist/
-// const BASE_URL = process.env.NODE_ENV === 'production' ? '/kangxin/' : '/kangxin/'
-// console.log("process.env.NODE_ENV",process.env.NODE_ENV)
+const BASE_URL = process.env.NODE_ENV === 'production' ? '/' : '/'
 module.exports = {
     //演示打包路径： http://legions9.com/kangxin/
-    publicPath: "/kangxin/",
+    publicPath: BASE_URL,
     // 设为false打包时不生成.map文件
     productionSourceMap: false,
 }

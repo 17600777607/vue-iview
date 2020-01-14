@@ -40,8 +40,26 @@
 </template>
 
 <script>
+    import {getItemList} from "@/api/shilie"
     export default {
-        name: "home"
+        name: "home",
+        created() {
+            // this.getItemList()
+        },
+        methods: {
+            getItemList() {
+                let datas={
+                    aa: "aa"
+                }
+                getItemList(datas).then(res => {
+                    // 请求返回数据
+                    console.log(res)
+                }).catch(err => {
+                    console.log(err)
+                    // 请求失败执行
+                })
+            }
+        }
     }
 </script>
 
@@ -68,17 +86,21 @@
                 width: 100%;
             }
         }
+
         .cz {
             width: 100%;
             overflow: hidden;
             margin-top: 16px;
-            img{
+
+            img {
                 width: 100%;
             }
         }
-        .bottom{
+
+        .bottom {
             margin-top: 16px;
-            .ivu-card-body{
+
+            .ivu-card-body {
                 min-height: auto;
             }
         }

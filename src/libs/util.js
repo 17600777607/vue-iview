@@ -1,3 +1,5 @@
+
+import Cookies from 'js-cookie'
 //面包屑方法
 export const getHomeRoute = (routers, homeName = 'home') => {
     let i = -1
@@ -24,4 +26,17 @@ export const setTitle = (routeItem, vm) => {
     })
     const resTitle=titleStrl +'博盛钢业'
     window.document.title = resTitle
+}
+//获取token
+export const getToken = () => {
+    const token = Cookies.get(TOKEN_KEY)
+    if (token) return token
+    else return false
+}
+export const delToken = () => {
+    Cookies.remove('token')
+}
+export const clearLoginInfo = () => {
+    delToken()
+    localStorage.clear()
 }
